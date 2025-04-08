@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>disable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\InfoTrack.Common\InfoTrack.Common.csproj" />
+      <ProjectReference Include="..\InfoTrack.Domain\InfoTrack.Domain.csproj" />
+      <ProjectReference Include="..\InfoTrack.Persistence\InfoTrack.Persistence.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="HtmlAgilityPack" Version="1.12.0" />
+      <PackageReference Include="Microsoft.Extensions.Http" Version="9.0.4" />
+    </ItemGroup>
+
+</Project>
